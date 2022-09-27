@@ -2,10 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 body {
   background-color: black;
-  font-family:  'Nunito', sans-serif;
+  font-family: 'Nunito', sans-serif;
 
+}
+
+
+.logo {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 50px;
+  font-weight: 100;
 }
