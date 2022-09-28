@@ -6,6 +6,7 @@ import Signup from "./Pages/Signup";
 import Account from "./Pages/Account";
 import Footer from "./components/Footer";
 import { AuthContextProvider } from "./context/AuthContext";
+import ProtectedRoute from "./components/ProtectedRoute";
 
 function App() {
   return (
@@ -15,9 +16,15 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
-          <route path="/signup" element={<Signup />} />
-          <route pathh="/account" element={<Account />} />
-          <Route path="*" element={<h1>404 Not Found</h1>} />
+          <Route path="/signup" element={<Signup />} />
+          <Route
+            path="/account"
+            element={
+              <ProtectedRoute>
+                <Account />
+              </ProtectedRoute>
+            }
+          />
         </Routes>
         <Footer />
       </AuthContextProvider>
