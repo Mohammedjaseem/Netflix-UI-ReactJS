@@ -1,11 +1,10 @@
 
 # Netflix UI Clone ⚡
 
-![Netflix-React](https://user-images.githubusercontent.com/61475220/96146654-280b4a80-0f24-11eb-86ea-9c2c6e5d6517.png)
+![Netflix-React]![image](https://user-images.githubusercontent.com/56159302/192841682-0b78f810-07c3-4d5c-8a07-55caf0e1a257.png)
 
 I recently created this Netflix UI clone application project. It fetches the movie data from a third-party API. The clone has been built using React JS, React-hooks, Styled-component, Material-UI, TMDB API, and Firebase (hosting & Deploying). I also plan to add further functionality such as user authorization, a dedicated backend to maintain the user database, and replicate it as close as possible to the original website.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### Steps Include : 
 - Getting TMDB API Key
@@ -14,7 +13,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Building the banner of the app
 - Building the NAVBAR!
 - Adding firebase hosting to your app
-- Adding Netflix Movie Trailer POP-UPS!
 - Deploying Your App to Firebase & Host it online
 
 ### Check out the Netflix Clone : [Netflix-Clone |  netflix.jassy.in ](https://netflix.jassy.in)
