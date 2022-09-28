@@ -1,7 +1,7 @@
 # Netflix using react js | hosted in firebase
 
 
-Live Demo : netflix.jassy.in
+        Live Demo : netflix.jassy.in
 
 
 
